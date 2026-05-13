@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-coil",
+  "version": "1.0.0",
+  "description": "Proyecto COIL para una base de datos para el diseño vial inteligente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markos107/proyecto-coil.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Markos107/proyecto-coil/issues"
+  },
+  "homepage": "https://github.com/Markos107/proyecto-coil#readme",
+  "devDependencies": {
+    "supabase": "^2.98.2"
+  }
+}
