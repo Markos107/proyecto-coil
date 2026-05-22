@@ -1,199 +1,217 @@
-# 🛣️ Proyecto COIL - Smart Road Design Database
 
-**Proyecto COIL para una base de datos para el diseño vial inteligente.**
+```markdown
+# 🛣️ GeoBridge - Proyecto COIL
 
-A comprehensive database solution designed for intelligent road design and infrastructure planning, developed as part of the COIL (Collaborative Online International Learning) initiative.
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Database Setup](#database-setup)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [Support](#support)
-- [License](#license)
+Una solución integral de base de datos diseñada para el diseño vial inteligente y la planificación de infraestructura (desarrollada como parte de la iniciativa Collaborative Online International Learning).
 
 ---
 
-## 🎯 Overview
+## 📋 Índice
 
-Proyecto COIL is a specialized database system built to support intelligent road design initiatives. It enables efficient data management, analysis, and collaboration for road infrastructure planning with a focus on smart city solutions.
-
-### Key Objectives:
-- Centralized management of road design data
-- Support for intelligent infrastructure planning
-- Collaborative development across international teams
-- Scalable and maintainable architecture
-
----
-
-## ✨ Features
-
-- 🗄️ **Supabase Integration** - Cloud-based PostgreSQL database with real-time capabilities
-- 📊 **Data Management** - Structured database schema for road design parameters
-- 🔗 **RESTful API** - Easy data access and manipulation
-- 🤝 **Collaborative** - COIL framework for international collaboration
-- 🚀 **Scalable** - Built on modern cloud infrastructure
+- [Descripción General](#descripción-general)
+- [Características](#características)
+- [Stack Tecnológico](#stack-tecnológico)
+- [Prerrequisitos](#prerrequisitos)
+- [Instalación](#instalación)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Primeros Pasos](#primeros-pasos)
+- [Configuración de la Base de Datos](#configuración-de-la-base-de-datos)
+- [Scripts Disponibles](#scripts-disponibles)
+- [Contribuciones](#contribuciones)
+- [Soporte](#soporte)
+- [Licencia](#licencia)
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Descripción General
 
-- **Runtime**: Node.js (v20.17.0 or v22.9.0+)
-- **Package Manager**: npm
-- **Database**: [Supabase](https://supabase.com/) v2.98.2
-- **Project Type**: CommonJS
+GeoBridge es un sistema de base de datos, creado para dar soporte a iniciativas de diseño vial inteligente. Permite una gestión de datos eficiente, análisis y colaboración para la planificación de infraestructura vial, con un enfoque en soluciones para ciudades inteligentes.
 
----
-
-## 📦 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **Node.js** (v20.17.0 or later, or v22.9.0+)
-- **npm** (comes with Node.js)
-- **Git** (for version control)
-- **Supabase Account** (free tier available at [supabase.com](https://supabase.com))
+### Objetivos del sistema:
+- Gestión centralizada de datos de diseño vial.
+- Soporte para la planificación de infraestructura inteligente.
+- Desarrollo colaborativo entre equipos internacionales.
+- Arquitectura escalable y fácil de mantener.
 
 ---
 
-## 🚀 Installation
+## ✨ Características
 
-### 1. Clone the Repository
+- **Integración con Supabase** - Base de datos PostgreSQL en la nube con capacidades en tiempo real.
+- **Gestión de Datos** - Esquema de base de datos estructurado para parámetros de diseño vial.
+- **API RESTful** - Fácil acceso y manipulación de datos.
+- **Colaborativo** - Marco de trabajo COIL para la colaboración internacional.
+- **Escalable** - Construido sobre una infraestructura moderna en la nube.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Entorno de ejecución**: Node.js (v20.17.0 o v22.9.0+)
+- **Gestor de paquetes**: npm
+- **Base de datos**: [Supabase](https://supabase.com/) v2.98.2
+- **Tipo de proyecto**: CommonJS
+
+---
+
+## 📦 Prerrequisitos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+- **Node.js** (v20.17.0 o posterior, o v22.9.0+)
+- **npm** (viene incluido con Node.js)
+- **Git** (por control de versiones)
+- **Cuenta de Supabase** (plan gratuito disponible en [supabase.com](https://supabase.com))
+
+---
+
+## 🚀 Instalación
+
+### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/Markos107/proyecto-coil.git
+git clone [https://github.com/Markos107/proyecto-coil.git](https://github.com/Markos107/proyecto-coil.git)
 cd proyecto-coil
+
 ```
 
-### 2. Install Dependencies
+### 2. Instalar Dependencias
 
 ```bash
 npm install
+
 ```
 
-### 3. Set Up Environment Variables
+### 3. Configurar Variables de Entorno
 
-Create a `.env.local` file in the project root with your Supabase credentials:
+Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales de Supabase:
 
 ```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_SUPABASE_URL=tu_url_de_proyecto_supabase
+VITE_SUPABASE_ANON_KEY=tu_clave_anon_de_supabase
+
 ```
 
-You can find these values in your Supabase project settings under **API**.
+Puedes encontrar estos valores en la configuración de tu proyecto de Supabase, bajo la sección **API**.
 
-### 4. Verify Installation
+### 4. Verificar la Instalación
 
 ```bash
 npm --version
 node --version
+
 ```
 
 ---
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```
 proyecto-coil/
-├── supabase/              # Supabase configuration and migrations
-├── src/                   # Source code (to be created)
-├── package.json           # Project metadata and dependencies
-├── package-lock.json      # Locked dependency versions
-├── README.md              # This file
-└── .gitignore             # Git ignore rules
+├── supabase/              # Configuración y migraciones de Supabase
+├── src/                   # Código fuente (por crear)
+├── package.json           # Metadatos del proyecto y dependencias
+├── package-lock.json      # Versiones bloqueadas de las dependencias
+├── README.md              # Este archivo
+└── .gitignore             # Reglas de archivos ignorados por Git
+
 ```
 
-### Key Directories:
-- **`supabase/`** - Database schema, migrations, and Supabase configuration
-- **`src/`** - Main application source code (to be developed)
+### Directorios Clave:
+
+* **`supabase/`** - Esquema de la base de datos, migraciones y configuración de Supabase.
+* **`src/`** - Código fuente principal de la aplicación (por desarrollar).
 
 ---
 
-## 🏁 Getting Started
+## 🏁 Primeros Pasos
 
-### 1. Initialize Your Development Environment
+### 1. Inicializar tu Entorno de Desarrollo
 
 ```bash
-# Install all dependencies
+# Instalar todas las dependencias
 npm install
 
-# Verify Supabase connection (once integrated)
+# Verificar la conexión con Supabase (una vez integrada)
 npm test
+
 ```
 
-### 2. Connect to Supabase
+### 2. Conectarse a Supabase
 
-Update the Supabase client configuration in your project with your project URL and API key from the `.env.local` file.
+Actualiza la configuración del cliente de Supabase en tu proyecto utilizando la URL del proyecto y la clave API de tu archivo `.env.local`.
 
-### 3. Start Development
+### 3. Iniciar el Desarrollo
 
-Once the development scripts are set up:
+Una vez que los scripts de desarrollo estén configurados:
 
 ```bash
 npm start
-# or your custom development command
+# o tu comando de desarrollo personalizado
+
 ```
 
 ---
 
-## 🗄️ Database Setup
+## 🗄️ Configuración de la Base de Datos
 
-### Using Supabase CLI
+### Usando la CLI de Supabase
 
-1. **Install Supabase CLI**:
-   ```bash
+1. **Instalar la CLI de Supabase**:
+
+```bash
    npm install -g supabase
-   ```
 
-2. **Initialize Your Local Database**:
-   ```bash
+```
+
+2. **Inicializar tu Base de Datos Local**:
+
+```bash
    supabase init
-   ```
 
-3. **Link to Your Project**:
-   ```bash
-   supabase link --project-ref your_project_ref
-   ```
+```
 
-4. **Migrate Database Schema**:
-   ```bash
+3. **Vincular a tu Proyecto**:
+
+```bash
+   supabase link --project-ref tu_project_ref
+
+```
+
+4. **Aplicar Migraciones al Esquema**:
+
+```bash
    supabase migration push
-   ```
 
-### Database Schema
+```
 
-The database is structured to support road design parameters including:
-- Infrastructure data
-- Geospatial information
-- Design specifications
-- Project metadata
+### Esquema de la Base de Datos
 
-Refer to the `/supabase` directory for detailed migration files.
+La base de datos está estructurada para soportar parámetros de diseño vial, incluyendo:
+
+* Datos de infraestructura
+* Información geoespacial
+* Especificaciones de diseño
+* Metadatos del proyecto
+
+Consulta el directorio `/supabase` para ver los archivos detallados de las migraciones.
 
 ---
 
-## 📝 Available Scripts
+## 📝 Scripts Disponibles
 
-### Currently Configured:
+### Configurado Actualmente:
 
 ```json
 {
   "test": "echo \"Error: no test specified\" && exit 1"
 }
+
 ```
 
-### To Add Scripts:
+### Para Añadir Scripts:
 
-Update `package.json` to include commands like:
+Actualiza el archivo `package.json` para incluir comandos como:
 
 ```json
 {
@@ -202,106 +220,67 @@ Update `package.json` to include commands like:
   "test": "jest",
   "lint": "eslint src/**/*.js"
 }
+
 ```
 
-Then run with:
+Luego ejecútalos con:
+
 ```bash
-npm run <script-name>
+npm run <nombre-del-script>
+
 ```
 
 ---
 
-## 🤝 Contributing
+## 💬 Soporte
 
-We welcome contributions from the international COIL community! Here's how to get involved:
+### Obtener Ayuda:
 
-### Getting Started with Contributions:
+* **Issues**: Reporta errores o solicita nuevas funciones en la [Página de Issues](https://github.com/Markos107/proyecto-coil/issues)
+* **Discussions**: Únete a las discusiones del proyecto en la [Página de Discusiones](https://github.com/Markos107/proyecto-coil/discussions)
+* **Documentación**: Consulta la [Wiki](https://github.com/Markos107/proyecto-coil/wiki)
 
-1. **Fork the Repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/proyecto-coil.git
-   cd proyecto-coil
-   ```
+### Reportes de Errores (Bug Reports):
 
-2. **Create a Feature Branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+Al reportar un error, por favor incluye:
 
-3. **Make Your Changes**
-   - Follow the existing code style
-   - Add comments for complex logic
-   - Update documentation as needed
-
-4. **Commit Your Changes**
-   ```bash
-   git commit -m "Add: description of your changes"
-   ```
-
-5. **Push to Your Fork**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. **Submit a Pull Request**
-   - Describe your changes clearly
-   - Link any related issues
-   - Wait for review from maintainers
-
-### Contribution Guidelines:
-- Be respectful and collaborative
-- Follow the existing code style
-- Write clear commit messages
-- Test your changes before submitting
-- Update documentation for new features
+* Pasos para reproducirlo.
+* Comportamiento esperado.
+* Comportamiento real observado.
+* Detalles del entorno (versión de Node.js, sistema operativo, etc.).
 
 ---
 
-## 💬 Support
+## 📄 Licencia
 
-### Getting Help:
-
-- **Issues**: Report bugs or request features on the [Issues Page](https://github.com/Markos107/proyecto-coil/issues)
-- **Discussions**: Join project discussions on the [Discussions Page](https://github.com/Markos107/proyecto-coil/discussions)
-- **Documentation**: Check the [Wiki](https://github.com/Markos107/proyecto-coil/wiki)
-
-### Bug Reports:
-When reporting a bug, please include:
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
-- Environment details (Node.js version, OS, etc.)
+Este proyecto está bajo la **Licencia ISC** - consulta el archivo [LICENSE](https://www.google.com/search?q=LICENSE) para más detalles.
 
 ---
 
-## 📄 License
+## 🔗 Enlaces Rápidos
 
-This project is licensed under the **ISC License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🔗 Quick Links
-
-- [GitHub Repository](https://github.com/Markos107/proyecto-coil)
-- [Supabase Documentation](https://supabase.com/docs)
-- [Node.js Documentation](https://nodejs.org/docs/)
-- [COIL Initiative](https://www.coil.com/)
+* [Repositorio de GitHub](https://github.com/Markos107/proyecto-coil)
+* [Documentación de Supabase](https://supabase.com/docs)
+* [Documentación de Node.js](https://nodejs.org/docs/)
+* [Iniciativa COIL](https://www.coil.com/)
 
 ---
 
-## 📞 Contact
+## 📞 Contacto
 
-- **Project Owner**: [@Markos107](https://github.com/Markos107)
-- **Report Issues**: [GitHub Issues](https://github.com/Markos107/proyecto-coil/issues)
-
----
-
-## 🎓 COIL Initiative
-
-Proyecto COIL is part of the Collaborative Online International Learning initiative, fostering global collaboration in road infrastructure design and intelligent transportation systems.
+* **Propietario del Proyecto**: [@Markos107](https://github.com/Markos107)
+* **Reportar Problemas**: [GitHub Issues](https://github.com/Markos107/proyecto-coil/issues)
 
 ---
 
-**Last Updated**: May 22, 2026
+## 🎓 Iniciativa COIL
 
-Happy Coding! 🚀
+Proyecto COIL es parte de la iniciativa Collaborative Online International Learning (Aprendizaje Internacional Colaborativo en Línea), fomentando la colaboración global en el diseño de infraestructura vial y sistemas de transporte inteligente.
+
+---
+
+**Última Actualización**: 22 de mayo de 2026
+
+```
+
+```
