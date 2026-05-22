@@ -1,9 +1,6 @@
-```markdown
 # 🛣️ GeoBridge - Proyecto COIL
 
 Una solución integral de base de datos diseñada para el diseño vial inteligente y la planificación de infraestructura (desarrollada como parte de la iniciativa Collaborative Online International Learning).
-
----
 
 ## 📋 Índice
 
@@ -19,8 +16,6 @@ Una solución integral de base de datos diseñada para el diseño vial inteligen
 - [Soporte](#soporte)
 - [Licencia](#licencia)
 
----
-
 ## 🎯 Descripción General
 
 GeoBridge es un sistema de base de datos creado para dar soporte a iniciativas de diseño vial inteligente. Permite una gestión de datos eficiente, análisis y colaboración para la planificación de infraestructura vial, con un enfoque en soluciones para ciudades inteligentes.
@@ -31,8 +26,6 @@ GeoBridge es un sistema de base de datos creado para dar soporte a iniciativas d
 - **Colaboración global:** Desarrollo conjunto entre equipos internacionales.
 - **Arquitectura limpia:** Estructura escalable y fácil de mantener.
 
----
-
 ## ✨ Características
 
 - 🗄️ **Integración con Supabase** - Base de datos PostgreSQL en la nube con capacidades en tiempo real.
@@ -42,8 +35,6 @@ GeoBridge es un sistema de base de datos creado para dar soporte a iniciativas d
 - 🤝 **Colaborativo** - Marco de trabajo COIL para la colaboración internacional.
 - 🚀 **Escalable** - Construido sobre una infraestructura moderna en la nube.
 
----
-
 ## 🛠️ Tecnologías utilizadas
 
 - **Entorno de ejecución:** Node.js (v20.17.0 o v22.9.0+)
@@ -51,8 +42,6 @@ GeoBridge es un sistema de base de datos creado para dar soporte a iniciativas d
 - **Base de datos:** [Supabase](https://supabase.com/) v2.98.2
 - **Plataforma de Despliegue:** [Firebase](https://firebase.google.com/)
 - **Tipo de proyecto:** CommonJS
-
----
 
 ## 📦 Prerrequisitos
 
@@ -63,8 +52,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 - **Git** (por control de versiones)
 - **Cuenta de Supabase** (plan gratuito disponible en [supabase.com](https://supabase.com))
 - **Firebase CLI** (para la gestión del despliegue en la nube)
-
----
 
 ## 🚀 Instalación
 
@@ -231,8 +218,6 @@ npm run <nombre-del-script>
 
 ```
 
----
-
 ## 💬 Soporte
 
 ### Obtener Ayuda:
@@ -240,6 +225,7 @@ npm run <nombre-del-script>
 * **Issues:** Reporta errores o solicita nuevas funciones en la [Página de Issues](https://github.com/Markos107/proyecto-coil/issues).
 * **Discussions:** Únete a las discusiones del proyecto en la [Página de Discusiones](https://github.com/Markos107/proyecto-coil/discussions).
 * **Documentación:** Consulta la [Wiki del proyecto](https://github.com/Markos107/proyecto-coil/wiki).
+
 
 ### Reportes de Errores (Bug Reports):
 
@@ -249,13 +235,11 @@ Al reportar un error, por favor incluye en el Issue:
 2. Comportamiento esperado vs. comportamiento real observado.
 3. Detalles del entorno (versión de Node.js, Sistema Operativo, etc.).
 
----
 
 ## 📄 Licencia
 
 Este proyecto está bajo la **Licencia ISC** - consulta el archivo [LICENSE](https://www.google.com/search?q=LICENSE) para más detalles.
 
----
 
 ## 🔗 Enlaces Rápidos
 
@@ -265,23 +249,13 @@ Este proyecto está bajo la **Licencia ISC** - consulta el archivo [LICENSE](htt
 * [Documentación de Firebase](https://firebase.google.com/docs)
 * [Iniciativa COIL](https://www.coil.com/)
 
----
 
 ## 📞 Contacto
 
 * **Propietario del Proyecto:** [@Markos107](https://github.com/Markos107)
 * **Reportar Problemas:** [GitHub Issues](https://github.com/Markos107/proyecto-coil/issues)
 
----
 
-## 🎓 Iniciativa COIL
-
-Proyecto COIL es parte de la iniciativa Collaborative Online International Learning (Aprendizaje Internacional Colaborativo en Línea), fomentando la colaboración global en el diseño de infraestructura vial y sistemas de transporte inteligente.
-
----
+Este proyecto es parte de la iniciativa Collaborative Online International Learning (Aprendizaje Internacional Colaborativo en Línea).
 
 **Última Actualización**: 22 de mayo de 2026
-
-```
-
-```
