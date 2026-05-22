@@ -1,4 +1,3 @@
-
 ```markdown
 # 🛣️ GeoBridge - Proyecto COIL
 
@@ -17,7 +16,6 @@ Una solución integral de base de datos diseñada para el diseño vial inteligen
 - [Primeros Pasos](#primeros-pasos)
 - [Configuración de la Base de Datos](#configuración-de-la-base-de-datos)
 - [Scripts Disponibles](#scripts-disponibles)
-- [Contribuciones](#contribuciones)
 - [Soporte](#soporte)
 - [Licencia](#licencia)
 
@@ -25,32 +23,34 @@ Una solución integral de base de datos diseñada para el diseño vial inteligen
 
 ## 🎯 Descripción General
 
-GeoBridge es un sistema de base de datos, creado para dar soporte a iniciativas de diseño vial inteligente. Permite una gestión de datos eficiente, análisis y colaboración para la planificación de infraestructura vial, con un enfoque en soluciones para ciudades inteligentes.
+GeoBridge es un sistema de base de datos creado para dar soporte a iniciativas de diseño vial inteligente. Permite una gestión de datos eficiente, análisis y colaboración para la planificación de infraestructura vial, con un enfoque en soluciones para ciudades inteligentes.
 
 ### Objetivos del sistema:
-- Gestión centralizada de datos de diseño vial.
-- Soporte para la planificación de infraestructura inteligente.
-- Desarrollo colaborativo entre equipos internacionales.
-- Arquitectura escalable y fácil de mantener.
+- **Gestión centralizada:** Control de datos de diseño vial en un solo lugar.
+- **Infraestructura inteligente:** Soporte técnico enfocado en planificación moderna.
+- **Colaboración global:** Desarrollo conjunto entre equipos internacionales.
+- **Arquitectura limpia:** Estructura escalable y fácil de mantener.
 
 ---
 
 ## ✨ Características
 
-- **Integración con Supabase** - Base de datos PostgreSQL en la nube con capacidades en tiempo real.
-- **Gestión de Datos** - Esquema de base de datos estructurado para parámetros de diseño vial.
-- **API RESTful** - Fácil acceso y manipulación de datos.
-- **Colaborativo** - Marco de trabajo COIL para la colaboración internacional.
-- **Escalable** - Construido sobre una infraestructura moderna en la nube.
+- 🗄️ **Integración con Supabase** - Base de datos PostgreSQL en la nube con capacidades en tiempo real.
+- 🔥 **Despliegue con Firebase** - Alojamiento e infraestructura en la nube optimizada para un acceso global rápido y seguro.
+- 📊 **Gestión de Datos** - Esquema de base de datos estructurado para parámetros de diseño vial.
+- 🔗 **API RESTful** - Fácil acceso y manipulación de datos.
+- 🤝 **Colaborativo** - Marco de trabajo COIL para la colaboración internacional.
+- 🚀 **Escalable** - Construido sobre una infraestructura moderna en la nube.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Entorno de ejecución**: Node.js (v20.17.0 o v22.9.0+)
-- **Gestor de paquetes**: npm
-- **Base de datos**: [Supabase](https://supabase.com/) v2.98.2
-- **Tipo de proyecto**: CommonJS
+- **Entorno de ejecución:** Node.js (v20.17.0 o v22.9.0+)
+- **Gestor de paquetes:** npm
+- **Base de datos:** [Supabase](https://supabase.com/) v2.98.2
+- **Plataforma de Despliegue:** [Firebase](https://firebase.google.com/)
+- **Tipo de proyecto:** CommonJS
 
 ---
 
@@ -62,6 +62,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 - **npm** (viene incluido con Node.js)
 - **Git** (por control de versiones)
 - **Cuenta de Supabase** (plan gratuito disponible en [supabase.com](https://supabase.com))
+- **Firebase CLI** (para la gestión del despliegue en la nube)
 
 ---
 
@@ -211,7 +212,7 @@ Consulta el directorio `/supabase` para ver los archivos detallados de las migra
 
 ### Para Añadir Scripts:
 
-Actualiza el archivo `package.json` para incluir comandos como:
+Puedes actualizar el archivo `package.json` para incluir los comandos del entorno de trabajo:
 
 ```json
 {
@@ -223,7 +224,7 @@ Actualiza el archivo `package.json` para incluir comandos como:
 
 ```
 
-Luego ejecútalos con:
+Luego se ejecutan desde la terminal usando:
 
 ```bash
 npm run <nombre-del-script>
@@ -236,18 +237,17 @@ npm run <nombre-del-script>
 
 ### Obtener Ayuda:
 
-* **Issues**: Reporta errores o solicita nuevas funciones en la [Página de Issues](https://github.com/Markos107/proyecto-coil/issues)
-* **Discussions**: Únete a las discusiones del proyecto en la [Página de Discusiones](https://github.com/Markos107/proyecto-coil/discussions)
-* **Documentación**: Consulta la [Wiki](https://github.com/Markos107/proyecto-coil/wiki)
+* **Issues:** Reporta errores o solicita nuevas funciones en la [Página de Issues](https://github.com/Markos107/proyecto-coil/issues).
+* **Discussions:** Únete a las discusiones del proyecto en la [Página de Discusiones](https://github.com/Markos107/proyecto-coil/discussions).
+* **Documentación:** Consulta la [Wiki del proyecto](https://github.com/Markos107/proyecto-coil/wiki).
 
 ### Reportes de Errores (Bug Reports):
 
-Al reportar un error, por favor incluye:
+Al reportar un error, por favor incluye en el Issue:
 
-* Pasos para reproducirlo.
-* Comportamiento esperado.
-* Comportamiento real observado.
-* Detalles del entorno (versión de Node.js, sistema operativo, etc.).
+1. Pasos claros para reproducirlo.
+2. Comportamiento esperado vs. comportamiento real observado.
+3. Detalles del entorno (versión de Node.js, Sistema Operativo, etc.).
 
 ---
 
@@ -262,14 +262,15 @@ Este proyecto está bajo la **Licencia ISC** - consulta el archivo [LICENSE](htt
 * [Repositorio de GitHub](https://github.com/Markos107/proyecto-coil)
 * [Documentación de Supabase](https://supabase.com/docs)
 * [Documentación de Node.js](https://nodejs.org/docs/)
+* [Documentación de Firebase](https://firebase.google.com/docs)
 * [Iniciativa COIL](https://www.coil.com/)
 
 ---
 
 ## 📞 Contacto
 
-* **Propietario del Proyecto**: [@Markos107](https://github.com/Markos107)
-* **Reportar Problemas**: [GitHub Issues](https://github.com/Markos107/proyecto-coil/issues)
+* **Propietario del Proyecto:** [@Markos107](https://github.com/Markos107)
+* **Reportar Problemas:** [GitHub Issues](https://github.com/Markos107/proyecto-coil/issues)
 
 ---
 
