@@ -2,7 +2,7 @@
 
 Una solución integral de base de datos diseñada para el diseño vial inteligente y la planificación de infraestructura (desarrollada como parte de la iniciativa Collaborative Online International Learning).
 
-Página web del pryecto: https://geobridge-7041b.web.app/
+Página web del proyecto: https://geobridge-7041b.web.app/
 
 
 ## 📋 Índice
